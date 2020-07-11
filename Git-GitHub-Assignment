@@ -1,0 +1,23 @@
+// Sarah Brady
+public class VarDataTypeAssignment {
+
+	public static void main(String[] args) {
+		 String firstname = "Bob";
+		 String lastname = "Smith";
+		 int age = 20;
+		 double gpa = 3.52;
+		 String major = "Biology";
+		 String studentclass = "Sophomore";
+		 
+		 System.out.println("===============================");
+		 System.out.printf("%s REPORT\n", "STUDENT");
+		 System.out.println("===============================");
+		 System.out.println("Student Name:	" + firstname + " " + lastname);
+		 System.out.print("Age: " + age);
+		 System.out.println("		GPA: " + gpa);
+		 System.out.println("Major: " + major);
+		 System.out.println("Class: " + studentclass);
+		 System.out.println("===============================");
+	}
+
+}
